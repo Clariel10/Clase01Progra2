@@ -38,6 +38,7 @@ public class ClsPersona {
             Personas.add(persona);
                     
             }
+        
             
        } catch (Exception e) {
            
@@ -59,6 +60,7 @@ public class ClsPersona {
            Statement.setString("PSexo", per.getSexo());
            Statement.execute();
            JOptionPane.showMessageDialog(null, "PERSONA GUARDADO");
+            conectar .close();
            
        } catch (Exception e) {
            
@@ -75,6 +77,7 @@ public class ClsPersona {
             Statement.setInt("PIdPersona", per.getIdPersona());
             Statement.execute();
             JOptionPane.showMessageDialog(null, "PERSONA BORRADA");
+             conectar .close();
 
         } catch (Exception e) {
 
@@ -95,6 +98,7 @@ public class ClsPersona {
            Statement.setString("PSexo", Persona.getSexo());
            Statement.execute();
            JOptionPane.showMessageDialog(null, "PERSONA ACTUALIZADA");
+            conectar .close();
            
        } catch (Exception e) {
            

@@ -58,8 +58,8 @@ public class crudPersona extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTabbedPane1 = new javax.swing.JTabbedPane();
-        jPanel1 = new javax.swing.JPanel();
+        tbmostrar = new javax.swing.JTabbedPane();
+        jpanel1 = new javax.swing.JPanel();
         txtId = new javax.swing.JTextField();
         txtSexo = new javax.swing.JTextField();
         txtEdad = new javax.swing.JTextField();
@@ -121,58 +121,58 @@ public class crudPersona extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout jpanel1Layout = new javax.swing.GroupLayout(jpanel1);
+        jpanel1.setLayout(jpanel1Layout);
+        jpanel1Layout.setHorizontalGroup(
+            jpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpanel1Layout.createSequentialGroup()
+                .addGroup(jpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jpanel1Layout.createSequentialGroup()
+                        .addGroup(jpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jpanel1Layout.createSequentialGroup()
                                 .addGap(44, 44, 44)
                                 .addComponent(btnGuardar)
                                 .addGap(81, 81, 81)
                                 .addComponent(btnEliminar)
                                 .addGap(84, 84, 84)
                                 .addComponent(btnActualizar))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addGroup(jpanel1Layout.createSequentialGroup()
                                 .addContainerGap()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel1)
                                     .addComponent(jLabel6))))
                         .addGap(0, 97, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGroup(jpanel1Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtId)
                             .addComponent(txtSexo)
                             .addComponent(txtEdad)
                             .addComponent(txtNombre, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(txtApellido)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jpanel1Layout.createSequentialGroup()
+                                .addGroup(jpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel5)
                                     .addComponent(jLabel2))
                                 .addGap(0, 0, Short.MAX_VALUE)))))
                 .addContainerGap())
-            .addGroup(jPanel1Layout.createSequentialGroup()
+            .addGroup(jpanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel3)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addGap(38, 38, 38))
-            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel1Layout.createSequentialGroup()
+            .addGroup(jpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jpanel1Layout.createSequentialGroup()
                     .addGap(40, 40, 40)
                     .addComponent(jLabel4)
                     .addContainerGap(499, Short.MAX_VALUE)))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        jpanel1Layout.setVerticalGroup(
+            jpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -196,19 +196,19 @@ public class crudPersona extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGuardar)
                     .addComponent(btnEliminar)
                     .addComponent(btnActualizar))
                 .addGap(39, 39, 39))
-            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel1Layout.createSequentialGroup()
+            .addGroup(jpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jpanel1Layout.createSequentialGroup()
                     .addGap(41, 41, 41)
                     .addComponent(jLabel4)
                     .addContainerGap(408, Short.MAX_VALUE)))
         );
 
-        jTabbedPane1.addTab("Operaciones de CRUD", jPanel1);
+        tbmostrar.addTab("Operaciones de CRUD", jpanel1);
 
         tb_persona.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -221,6 +221,11 @@ public class crudPersona extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        tb_persona.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tb_personaMouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(tb_persona);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -240,17 +245,17 @@ public class crudPersona extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Mostrar Datos", jPanel2);
+        tbmostrar.addTab("Mostrar Datos", jPanel2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1)
+            .addComponent(tbmostrar)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1)
+            .addComponent(tbmostrar)
         );
 
         pack();
@@ -291,6 +296,26 @@ public class crudPersona extends javax.swing.JFrame {
         Personas.ActualizarPersonas(Persona);
         MostrarTablaPersona();
     }//GEN-LAST:event_btnActualizarActionPerformed
+
+    private void tb_personaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tb_personaMouseClicked
+        tbmostrar.setSelectedIndex(tbmostrar.indexOfComponent(jpanel1));
+
+        int fila = tb_persona.getSelectedRow();
+
+        String ID = String.valueOf(tb_persona.getValueAt(fila, 0));
+        String nombre = String.valueOf(tb_persona.getValueAt(fila, 1));
+        String apellido = String.valueOf(tb_persona.getValueAt(fila, 2));
+        String edad = String.valueOf(tb_persona.getValueAt(fila, 3));
+        String sexo = String.valueOf(tb_persona.getValueAt(fila, 4));
+        
+        txtId.setText(ID);
+        txtNombre.setText(nombre);
+        txtApellido.setText(apellido);
+        txtEdad.setText(edad);
+        txtSexo.setText(sexo);
+        
+        
+    }//GEN-LAST:event_tb_personaMouseClicked
 
     /**
      * @param args the command line arguments
@@ -338,11 +363,11 @@ public class crudPersona extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JPanel jpanel1;
     private javax.swing.JTable tb_persona;
+    private javax.swing.JTabbedPane tbmostrar;
     private javax.swing.JTextField txtApellido;
     private javax.swing.JTextField txtEdad;
     private javax.swing.JTextField txtId;
