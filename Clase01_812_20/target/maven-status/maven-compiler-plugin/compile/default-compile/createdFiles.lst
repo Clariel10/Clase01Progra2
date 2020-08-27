@@ -1,12 +1,14 @@
 com\unab\edu\Entidades\Persona.class
-com\unab\edu\Conexionmysql\ConexionBD.class
 com\unab\edu\OperacionesBD\crudPersona.class
 com\unab\edu\OperacionesBD\crudPersona$2.class
 com\unab\edu\clase1\clase01_812_20\WelcomeToJava$2.class
 com\unab\edu\clase1\clase01_812_20\Operacion.class
 com\unab\edu\clase1\clase01_812_20\WelcomeToJava.class
+com\unab\edu\OperacionesBD\crudPersona$4.class
 com\unab\edu\clase1\clase01_812_20\Operacion$2.class
 com\unab\edu\clase1\clase01_812_20\Operacion$1.class
 com\unab\edu\clase1\clase01_812_20\WelcomeToJava$1.class
+com\unab\edu\DAO\ClsPersona.class
 com\unab\edu\OperacionesBD\crudPersona$3.class
+com\unab\edu\Conexionmysql\ConexionBD.class
 com\unab\edu\OperacionesBD\crudPersona$1.class
