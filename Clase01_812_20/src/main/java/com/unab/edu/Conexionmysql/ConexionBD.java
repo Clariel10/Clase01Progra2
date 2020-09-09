@@ -20,7 +20,7 @@ public class ConexionBD {
     {
         try {
             
-          conexion =   DriverManager.getConnection("jdbc:mysql://localhost/clase1","root","root");
+          conexion =   DriverManager.getConnection("jdbc:mysql://localhost/clase1?serverTimezone=UTC","root","root");
            
             System.out.println("Conectado a la BD");
         } 
